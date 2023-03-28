@@ -1,0 +1,39 @@
+#h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+
+  }
+#p1 {
+    color: black;
+    background-color: aqua;
+    width: 75%;
+}
+#video {
+    width: 500px;
+    border: 2px solid blue;
+    float: left;
+}
+#bob {
+    width: 128px;
+    float: right;
+    border: 2px solid rgb(0, 0, 0) ;
+}
+#bf {
+    float: left;
+    border: 2px solid red;
+}
+#bobimage{
+    border: 1px solid blue;
+    width: 128px;
+}
+#bobvideo{
+    width: 500px;
+}
+#counter{
+    border: 2px solid;
+    float: right;
+}
+#view-count{
+    font-weight: bold; 
+}

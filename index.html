@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<title>The Church Of Bob</title>
+<script>
+    function incrementViews() {
+        // Get the current view count from storage or set to 0
+        var views = parseInt(localStorage.getItem('views')) || 0;
+        // Increment the view count
+        views++;
+        // Save the updated view count to storage
+        localStorage.setItem('views', views);
+        // Update the view count on the page
+        document.getElementById('view-count').textContent = views;
+    }
+</script>
+<link rel="Stylesheet" href="style.css">
+<link rel="icon" href="bob2.jpg">
+<H1>The Church Of Bob</H1>
+<h3> Welcome to the church of B.O.B.</h3>
+<a>We are a religion based of the charchter Benzoate Ostylezene Bicarbonate</a>
+<p id="p1">I think i just scared myself.  That is scary.
+    -B.O.B.
+    if this seems weird it is because my friend blake is obsessed
+    with the 2009 hit film monsters vs aliens.  Specifically the charecter
+    known as B.O.B.
+</p>
+<div id="bob">
+    <image id="bobimage" src="bob2.jpg"></image>
+    <a>"Hi there" My name is bob</a>
+</div>
+<div id="video">
+    <video id="bobvideo" src="bob.mp4" onplay="incrementViews()" controls></video>
+</div>
+<div id="counter">
+    <Div id="views">
+        <p>Views:</p>
+    </Div>
+    <div class="vc">
+        <span id="view-count">XX</span>
+    </div>
+</div>
+<div id="bf">
+    <a>FULL NAME: Benzoate Ostylezene Bicarbonate
+    Please join out religion and not the doctor 
+    cockroach or ginormica religion because those 
+    are for people with a brain and a back of which 
+    I have neither.
+    </a>
+</div>
